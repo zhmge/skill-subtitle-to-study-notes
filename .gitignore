@@ -1,0 +1,18 @@
+# 本 skill 只用 Python 标准库，不自建环境。以下为防御性规则。
+__pycache__/
+*.py[cod]
+.venv*/
+venv*/
+envs/
+.conda/
+
+# 运行产物：解析结果与中间文件属本地数据
+*.out.json
+*_segments.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
